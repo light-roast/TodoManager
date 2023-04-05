@@ -1,6 +1,6 @@
 # Todo List Manager
 This react app let you create a simple todo list that you can modify  in real time whenever you complete a todo (deleting the todo) or you want to edit the content of some todo in particular. The app also shows the number of todos pending. 
-![A view of the app charged in the browser](./AppView.png)
+![A view of the app charged in the browser]()
 
 # Getting Started with Create React App
 
