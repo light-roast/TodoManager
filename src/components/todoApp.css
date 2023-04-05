@@ -2,6 +2,7 @@ h1 {
     text-align: center;
     color: #F9F871;
     border-radius: 2;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -9,6 +10,11 @@ h2 {
     text-align: center;
 }
 
+h6 {
+    margin: 0;
+    color: #6D543D;
+    text-align: center;
+}
 main {
     display: grid;
     grid-template-columns: minmax(1px, 15px) minmax(200px, 1fr) minmax(1px, 15px);
