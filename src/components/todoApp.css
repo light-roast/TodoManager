@@ -6,13 +6,24 @@ h1 {
 
 h2 {
     color: #F9F871;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: minmax(1px, 15px) minmax(200px, 1fr) minmax(1px, 15px);
+    grid-auto-flow: row;
 }
 
 .todoContainer {
-    width: 500px;
-    margin: 40px auto;
+    grid-column: 2/3;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 450px;;
+    margin: 40px auto;
+      
+    
 }
 
 .todoCreateForm {

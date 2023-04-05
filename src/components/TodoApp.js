@@ -50,6 +50,7 @@ export default function TodoApp() {
     };
     
     return (
+    <main>
     <div className="todoContainer">
         <Counter todos={todos}/>
         <form 
@@ -74,5 +75,6 @@ export default function TodoApp() {
             }
         </div>
     </div>
+    </main>
     );
 };
